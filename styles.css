@@ -23,19 +23,19 @@ p{
   margin-top: 5rem;
   padding: 1rem;
 }
-.sml{
+.sm{
   height: 2rem;
   width: 2rem;
 }
-.mdm{
+.md{
   height: 3rem;
   width: 3rem;
 }
-.lrg{
+.lg{
   height: 4rem;
   width:4rem;
 }
-.x-lrg{
+.xl{
   height: 5rem;
   width: 5rem;
 }
