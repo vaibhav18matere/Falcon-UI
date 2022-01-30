@@ -1,3 +1,8 @@
-*{
-    background-color: rgb(154, 110, 53);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans', serif, sans-serif;
 }
