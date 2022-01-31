@@ -1,0 +1,49 @@
+.alert-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 15rem;
+}
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:90%;
+    padding: 0.5rem 1rem;
+}
+.alert div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    width: 2rem;
+}
+.alert span{
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+.success-alert{
+    color: #175b3b;
+    background: #d1e7dd;
+    border-color: #badbac;
+    border-radius: 0.15rem;
+}
+.warning-alert{
+    color: #6f5811;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+    border-radius: 0.15rem;
+}
+.danger-alert{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    border-radius: 0.15rem;
+}
+.info-alert{
+    color: #111212;
+    background-color: #d5d9dd;
+    border-color: #d3d6d8;
+    border-radius: 0.15rem;
+}
