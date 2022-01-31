@@ -6,6 +6,7 @@ html, body{
   margin: 0;
   padding: 0;
   /* color variables */
+  --primary-color:rgb(142, 42, 142);
   --border-radius-clr:#121212;
 }
 .mb{
@@ -46,4 +47,29 @@ p{
   overflow: hidden;
   max-width: 100%;
   margin-top: 4rem;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.d-left{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-content: flex-start;
+  align-items: baseline;
+}
+.cursor{
+  cursor: pointer;
 }
