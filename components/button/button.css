@@ -1,11 +1,14 @@
 .btn{
-    padding: 0.7rem;
-    border-radius: 0.2rem;
+    padding: 0.8rem;
+    margin: 1.5rem;
+    border-radius: 5px;
     border: none;
     letter-spacing: 0.1rem;
     font-weight: 700;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    text-decoration: none;
+    line-height: 1.2rem;
 }
 .btn-primary{
     background-color: #0066ff;
@@ -40,12 +43,12 @@
     border-color: #d3624e; 
 }
 .btn-warning{
-    background-color: rgb(240, 240, 18);
+    background-color: rgb(253, 253, 3);
     border-color: rgb(179, 179, 65);
     color: rgb(0, 0, 0);
 }
 .btn-warning:hover{
-    background-color: rgb(250, 250, 4);
+    background-color: rgb(182, 182, 97);
     border-color: rgb(211, 211, 26);
 }
 .btn-info{
@@ -84,4 +87,96 @@
 }
 .btn-link:hover{
     background-color: rgba(255, 255, 9, 0.714);
+}
+
+
+
+
+
+
+
+/* Outlinr buttons */
+
+.btn-outline{
+    padding: 0.8rem;
+    margin: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-weight: 00;
+    background: transparent;
+    line-height: 1.2rem;
+}
+.btn-primary-outline{
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+.btn-primary-outline:hover{
+    background-color: #2e67bb;
+    border-color: #030303;
+    color:#fff;
+}
+.btn-secondary-outline{
+    border-color: #727b82;
+    color: #727b82;
+}
+.btn-secondary-outline:hover{
+    background-color: #494e53;
+    border-color: #484848;
+    color:#fff;
+}
+.btn-success-outline{
+    border-color: #37b83b;
+    color: #37b83b;
+}
+.btn-success-outline:hover{
+    background-color: #7ed062;
+    border-color: #00ff08;
+    color:#fff;
+}
+.btn-danger-outline{
+    border-color: #ca4831; 
+    color: #ca4831; 
+}
+.btn-danger-outline:hover{
+    background-color: #cc5348;
+    border-color: #d3624e; 
+    color:#fff;
+}
+.btn-warning-outline{
+    border-color: rgb(179, 179, 65);
+    color: rgb(206, 216, 21);
+}
+.btn-warning-outline:hover{
+    background-color: rgba(221, 221, 125, 0.625);
+    border-color: rgb(189, 189, 104);
+    color:#000;
+}
+.btn-info-outline{
+    border-color: #13b7d8;
+    color: #13b7d8;
+}
+.btn-info-outline:hover{
+    background-color: #48afc4;
+    border-color: #5997a4;
+    color:#fff;
+}
+.btn-light-outline{
+    color: #000;
+    border-color: #e8ebee;
+}
+.btn-light-outline:hover{
+    background-color: #c3d6e6;
+    border-color: #cbdae9;
+    color:#000;
+}
+.btn-dark-outline{
+    border-color: #060707;
+    color: rgb(0, 0, 0);
+}
+.btn-dark-outline:hover{
+    background-color: #56606e;
+    border-color: #3c4848;
+    color:#fff;
 }
