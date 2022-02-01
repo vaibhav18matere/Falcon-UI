@@ -10,6 +10,7 @@
     text-decoration: none;
     line-height: 1.2rem;
 }
+
 .btn-primary{
     background-color: #0066ff;
     border-color: #1668e4;
@@ -27,7 +28,7 @@
     border-color: #484848;
 }
 .btn-success{
-    background-color: #41ff02;
+    background-color: #55b136;
     border-color: #37b83b;
 }
 .btn-success:hover{
@@ -35,7 +36,7 @@
     border-color: #00ff08;
 }
 .btn-danger{
-    background-color: #ec220f;
+    background-color: #d13d30;
     border-color: #ca4831; 
 }
 .btn-danger:hover{
@@ -88,15 +89,7 @@
 .btn-link:hover{
     background-color: rgba(255, 255, 9, 0.714);
 }
-
-
-
-
-
-
-
-/* Outlinr buttons */
-
+/* Outline buttons */
 .btn-outline{
     padding: 0.8rem;
     margin: 1.5rem;
@@ -163,4 +156,32 @@
 .btn-dark-outline:hover{
     background-color: #56606e;
     color:#fff;
+}
+/* Icon buttons */
+.btn-icon{
+    padding: 0.8rem;
+    margin: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    background: none;
+}
+.add{
+    color:rgb(32, 144, 58);
+}
+.edit{
+    color:rgb(36, 148, 128);
+}
+.delete{
+    color:rgb(216, 68, 68);
+}
+.share{
+    color:rgb(51, 51, 182);
+}
+.close{
+    color:rgb(175, 78, 78); 
+}
+.comment{
+    color:rgb(35, 166, 218);
 }
