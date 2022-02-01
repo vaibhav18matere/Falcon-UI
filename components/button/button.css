@@ -114,7 +114,6 @@
 }
 .btn-primary-outline:hover{
     background-color: #2e67bb;
-    border-color: #030303;
     color:#fff;
 }
 .btn-secondary-outline{
@@ -123,7 +122,6 @@
 }
 .btn-secondary-outline:hover{
     background-color: #494e53;
-    border-color: #484848;
     color:#fff;
 }
 .btn-success-outline{
@@ -132,7 +130,6 @@
 }
 .btn-success-outline:hover{
     background-color: #7ed062;
-    border-color: #00ff08;
     color:#fff;
 }
 .btn-danger-outline{
@@ -141,7 +138,6 @@
 }
 .btn-danger-outline:hover{
     background-color: #cc5348;
-    border-color: #d3624e; 
     color:#fff;
 }
 .btn-warning-outline{
@@ -150,7 +146,6 @@
 }
 .btn-warning-outline:hover{
     background-color: rgba(221, 221, 125, 0.625);
-    border-color: rgb(189, 189, 104);
     color:#000;
 }
 .btn-info-outline{
@@ -159,24 +154,13 @@
 }
 .btn-info-outline:hover{
     background-color: #48afc4;
-    border-color: #5997a4;
     color:#fff;
-}
-.btn-light-outline{
-    color: #000;
-    border-color: #e8ebee;
-}
-.btn-light-outline:hover{
-    background-color: #c3d6e6;
-    border-color: #cbdae9;
-    color:#000;
 }
 .btn-dark-outline{
     border-color: #060707;
-    color: rgb(0, 0, 0);
+    color: #000;
 }
 .btn-dark-outline:hover{
     background-color: #56606e;
-    border-color: #3c4848;
     color:#fff;
 }
