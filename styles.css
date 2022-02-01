@@ -51,3 +51,33 @@ p{
   max-width: 100%;
   margin-top: 4rem;
 }
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.d-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.d-left{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-content: flex-start;
+  align-items: baseline;
+}
+.cursor{
+  cursor: pointer;
+}
