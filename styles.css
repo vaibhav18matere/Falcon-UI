@@ -7,6 +7,10 @@ html, body{
   padding: 0;
   /* color variables */
   --border-radius-clr:#121212;
+  --success:#175b3b;
+  --warning:#6f5811;
+  --danger:#842029;
+  --info:#111212;
 }
 .mb{
   margin-block-start: 0;
