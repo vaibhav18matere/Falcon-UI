@@ -1,0 +1,47 @@
+.badge-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+}
+.badge{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.primary-badge{
+    color:white;
+    background: var(--primary-color);
+}
+.secondary-badge{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.primary-pill{
+    color: white;
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+.secondary-pill{
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+.notif-icon-badge{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.total-badge-notif{
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+}

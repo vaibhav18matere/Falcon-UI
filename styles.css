@@ -6,6 +6,7 @@ html, body{
   margin: 0;
   padding: 0;
   /* color variables */
+  --primary-color:rgb(142, 42, 142);
   --border-radius-clr:#121212;
   --success:#175b3b;
   --warning:#6f5811;
