@@ -5,89 +5,75 @@
     border: none;
     letter-spacing: 0.1rem;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: var(--white);
     cursor: pointer;
     text-decoration: none;
     line-height: 1.2rem;
 }
-
 .btn-primary{
-    background-color: #0066ff;
-    border-color: #1668e4;
+    background-color: var(--primary);
 }
 .btn-primary:hover{
-    background-color: #2e67bb;
-    border-color: #030303;
+    background-color: var(--primary-light);
 }
 .btn-secondary{
-    background-color: #6a727b;
-    border-color: #727b82;
+    background-color: var(--secondary);
 }
 .btn-secondary:hover{
-    background-color: #494e53;
-    border-color: #484848;
+    background-color: var(--secondary-light);
 }
 .btn-success{
-    background-color: #55b136;
-    border-color: #37b83b;
+    background-color: var(--success);
 }
 .btn-success:hover{
-    background-color: #7ed062;
-    border-color: #00ff08;
+    background-color: var(--success-light);
+    color: var(--dark);
 }
 .btn-danger{
-    background-color: #d13d30;
-    border-color: #ca4831; 
+    background-color: var(--danger);
 }
 .btn-danger:hover{
-    background-color: #cc5348;
-    border-color: #d3624e; 
+    background-color: var(--danger-light);
 }
 .btn-warning{
-    background-color: rgb(253, 253, 3);
-    border-color: rgb(179, 179, 65);
-    color: rgb(0, 0, 0);
+    background-color: var(--warning);
+    color:var(--white);
 }
 .btn-warning:hover{
-    background-color: rgb(182, 182, 97);
-    border-color: rgb(211, 211, 26);
+    background-color: var(--warning-light);
 }
 .btn-info{
-    background-color: #07d3fb;
-    border-color: #13b7d8;
-    color: rgb(0, 0, 0);
+    background-color: var(--info);
+    color: var(--dark);
 }
 .btn-info:hover{
-    background-color: #48afc4;
-    border-color: #5997a4;
+    background-color: var(--info-light);
 }
 .btn-light {
-    color: #000;
-    background-color: #dde5ec;
-    border-color: #e8ebee;
+    color:var(--dark);
+    background-color: var(--light);
 }
 .btn-light:hover{
-    background-color: #c3d6e6;
-    border-color: #cbdae9;
+    color: var(--light);
+    background-color: var(--dark);
 }
 .btn-dark{
-    background-color: #1c1f23;
-    border-color: #060707;
-    color: #fff;
+    background-color: var(--dark);
+    color:var(--light);
 }
 .btn-dark:hover{
-    background-color: #56606e;
-    border-color: #3c4848;
+    background-color:var(--light);
+    color:var(--dark);
 }
 .btn-link{
     background: transparent;
     text-decoration: underline;
     border: none;
-    color: rgb(0, 0, 255);
+    color: var(--primary);
     font-size:x-large;
 }
 .btn-link:hover{
-    background-color: rgba(255, 255, 9, 0.714);
+    background-color: var(--warning);
 }
 /* Outline buttons */
 .btn-outline{
@@ -102,60 +88,60 @@
     line-height: 1.2rem;
 }
 .btn-primary-outline{
-    color: #0d6efd;
-    border-color: #0d6efd;
+    color: var(--primary);
+    border-color: var(--primary-light);
 }
 .btn-primary-outline:hover{
-    background-color: #2e67bb;
-    color:#fff;
+    background-color: var(--primary);
+    color:var(--white);
 }
 .btn-secondary-outline{
-    border-color: #727b82;
-    color: #727b82;
+    border-color: var(--secondary-light);
+    color: var(--secondary);
 }
 .btn-secondary-outline:hover{
-    background-color: #494e53;
-    color:#fff;
+    background-color: var(--secondary-light);
+    color:var(--white);
 }
 .btn-success-outline{
-    border-color: #37b83b;
-    color: #37b83b;
+    border-color: var(--success-light);
+    color: var(--success);
 }
 .btn-success-outline:hover{
-    background-color: #7ed062;
-    color:#fff;
+    background-color: var(--success);
+    color:var(--white);
 }
 .btn-danger-outline{
-    border-color: #ca4831; 
-    color: #ca4831; 
+    border-color: var(--danger-light);
+    color: var(--danger);
 }
 .btn-danger-outline:hover{
-    background-color: #cc5348;
-    color:#fff;
+    background-color: var(--danger);
+    color:var(--white);
 }
 .btn-warning-outline{
-    border-color: rgb(179, 179, 65);
-    color: rgb(206, 216, 21);
+    border-color: var(--warning-light);
+    color: var(--warning);
 }
 .btn-warning-outline:hover{
-    background-color: rgba(221, 221, 125, 0.625);
-    color:#000;
+    background-color: var(--warning);
+    color:var(--dark);
 }
 .btn-info-outline{
-    border-color: #13b7d8;
-    color: #13b7d8;
+    border-color: var(--info-light);
+    color: var(--info);
 }
 .btn-info-outline:hover{
-    background-color: #48afc4;
-    color:#fff;
+    background-color: var(--info);
+    color:var(--white);
 }
 .btn-dark-outline{
-    border-color: #060707;
-    color: #000;
+    border-color: var(--secondary);
+    color:var(--dark);
 }
 .btn-dark-outline:hover{
-    background-color: #56606e;
-    color:#fff;
+    background-color: var(--secondary);
+    color:var(--light);
 }
 /* Icon buttons */
 .btn-icon{
@@ -163,25 +149,28 @@
     margin: 3rem;
     border-radius: 5px;
     border: none;
-    color: #000;
+    color: var(--dark);
     cursor: pointer;
     background: none;
 }
 .add{
-    color:rgb(32, 144, 58);
+    color:var(--success);
 }
 .edit{
-    color:rgb(36, 148, 128);
+    color:var(--light-green);
 }
 .delete{
-    color:rgb(216, 68, 68);
+    color:var(--danger);
 }
 .share{
-    color:rgb(51, 51, 182);
+    color:var(--primary);
+}
+.cart{
+    color:var(--warning);
 }
 .close{
-    color:rgb(175, 78, 78); 
+    color:var(--alert);
 }
 .comment{
-    color:rgb(35, 166, 218);
+    color:var(--info);
 }

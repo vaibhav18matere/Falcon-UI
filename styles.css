@@ -6,11 +6,24 @@ html, body{
   margin: 0;
   padding: 0;
   /* color variables */
-  --border-radius-clr:#121212;
-  --success:#175b3b;
-  --warning:#6f5811;
-  --danger:#842029;
-  --info:#111212;
+  --border-radius-clr:#c6bdbd;
+  --white:rgb(255, 255, 255);
+  --primary:#0066ff;
+  --primary-light:#2e67bb;
+  --secondary:#6a727b;
+  --secondary-light:#696f75a7;
+  --success:#55b136;
+  --success-light:#95e67a;
+  --danger:#d13d30;
+  --danger-light:#c66c64db;
+  --alert:rgb(223, 123, 123);
+  --warning:rgb(255, 238, 0);
+  --warning-light:rgba(233, 233, 62, 0.823);
+  --info:#07d3fb;
+  --info-light:#8ed7e6e3;
+  --light:#dde5ec;
+  --dark:#1c1f23;
+  --light-green:rgb(36, 148, 128);
 }
 .mb{
   margin-block-start: 0;
