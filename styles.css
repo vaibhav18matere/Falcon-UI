@@ -6,9 +6,8 @@ html, body{
   margin: 0;
   padding: 0;
   /* color variables */
-  --border-radius-clr:#c6bdbd;
-  --white:#fff;
-  --primary:#0066ff;
+  --primary:#3b04fb;
+  --complementary:#c4fb04;
   --primary-light:#2e67bb;
   --secondary:#6a727b;
   --secondary-light:#696f75a7;
@@ -21,6 +20,7 @@ html, body{
   --warning-light:#e9e93ed2;
   --info:#07d3fb;
   --info-light:#8ed7e6e3;
+  --white:#fff;
   --light:#dde5ec;
   --dark:#1c1f23;
   --light-green:#249480;

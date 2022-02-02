@@ -1,0 +1,49 @@
+body {
+    min-height: fit-content;
+}
+/* landing page navbar */
+.landing-page-nav{
+    display: block;
+    border: 1px solid var(--light);
+    padding: 1rem;
+}
+.navbar-list{
+    list-style-type: none;
+    width: 10vw;  
+}
+.navbar-heading{
+    font-weight: bolder;
+    font-size:xx-large;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: var(--primary);
+}
+.navbar-list-container{
+    flex-shrink: 2;
+}
+.nav-icons{
+    color: var(--dark);
+    font-size: 12px;
+    margin: 0 2px;
+}
+.landing-page{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.hero-img{
+    width: 50%;
+    object-fit: cover;
+}
+.landing-page-info{
+    text-align: center;
+}
+
+@media only screen and (min-width: 750px) {
+    .landing-page__content {
+      width: 40%;
+    }
+  }
