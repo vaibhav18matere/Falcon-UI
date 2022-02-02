@@ -174,3 +174,16 @@
 .comment{
     color:var(--info);
 }
+/*Floating Icon buttons */
+.plus{
+    color:var(--dark);
+}
+.google-plus{
+    color:var(--google-plus);
+}
+.twitter{
+    color: var(--twitter);
+}
+.whatsapp{
+    color:var(--whatsapp);
+}

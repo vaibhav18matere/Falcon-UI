@@ -24,6 +24,9 @@ html, body{
   --light:#dde5ec;
   --dark:#1c1f23;
   --light-green:#249480;
+  --google-plus:#db4a39;
+  --twitter:#00acee;
+  --whatsapp:#25D366;
 }
 .mb{
   margin-block-start: 0;
