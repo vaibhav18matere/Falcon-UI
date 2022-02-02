@@ -7,7 +7,7 @@ html, body{
   padding: 0;
   /* color variables */
   --border-radius-clr:#c6bdbd;
-  --white:rgb(255, 255, 255);
+  --white:#fff;
   --primary:#0066ff;
   --primary-light:#2e67bb;
   --secondary:#6a727b;
@@ -16,14 +16,14 @@ html, body{
   --success-light:#95e67a;
   --danger:#d13d30;
   --danger-light:#c66c64db;
-  --alert:rgb(223, 123, 123);
-  --warning:rgb(255, 238, 0);
-  --warning-light:rgba(233, 233, 62, 0.823);
+  --alert:#df7b7b;
+  --warning:#ffee00;
+  --warning-light:#e9e93ed2;
   --info:#07d3fb;
   --info-light:#8ed7e6e3;
   --light:#dde5ec;
   --dark:#1c1f23;
-  --light-green:rgb(36, 148, 128);
+  --light-green:#249480;
 }
 .mb{
   margin-block-start: 0;
