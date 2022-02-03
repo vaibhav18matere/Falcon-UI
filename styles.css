@@ -6,11 +6,14 @@ html, body{
   margin: 0;
   padding: 0;
   /* color variables */
-  --border-radius-clr:#121212;
   --success:#175b3b;
+  --success-bg:#bae7d3;
   --warning:#6f5811;
+  --warning-bg:#e4d6a8;
   --danger:#842029;
+  --danger-bg:#f0b3b8;
   --info:#111212;
+  --info-bg:#9d9fa2;
 }
 .mb{
   margin-block-start: 0;
@@ -80,4 +83,7 @@ p{
 }
 .cursor{
   cursor: pointer;
+}
+h1{
+  letter-spacing: 2px;
 }

@@ -9,8 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width:90%;
+    width:70%;
     padding: 0.5rem 1rem;
+    border-radius: 0.15rem;
 }
 .alert div{
     display: flex;
@@ -25,25 +26,17 @@
 }
 .success-alert{
     color: var(--success);
-    background: #d1e7dd;
-    border-color: #badbac;
-    border-radius: 0.15rem;
-}
-.warning-alert{
-    color:var(--warning);
-    background-color: #fff3cd;
-    border-color: #ffecb5;
-    border-radius: 0.15rem;
+    background:var(--success-bg);
 }
 .danger-alert{
     color: var(--danger);
-    background-color: #f8d7da;
-    border-color: #f5c2c7;
-    border-radius: 0.15rem;
+    background-color: var(--danger-bg);
+}
+.warning-alert{
+    color:var(--warning);
+    background-color:var(--warning-bg);
 }
 .info-alert{
     color: var(--info);
-    background-color: #d5d9dd;
-    border-color: #d3d6d8;
-    border-radius: 0.15rem;
+    background-color:var(--info-bg);
 }
