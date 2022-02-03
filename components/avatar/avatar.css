@@ -1,5 +1,14 @@
+
+.avatar-container{
+    width: 70%;
+    min-width: 350px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
 .avatar-img{
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid var(--border-radius-clr);
+}
+.i-frame{
+    margin-top: 2rem;
 }
