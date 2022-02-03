@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+/* External imports */
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+/* components imports */
+@import "/components/alert/alert.css";
+@import "/components/avatar/avatar.css";
+@import "/components/badge/badge.css";
+@import "/components/button/button.css";
+@import "/components/responive-image/responsive-img.css";
 
 html, body{
   font-family: 'Open sans', serif, sans-serif;
