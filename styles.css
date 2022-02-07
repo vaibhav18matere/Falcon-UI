@@ -110,6 +110,11 @@ p{
   align-items: center;
   justify-content: flex-end;
 }
+.d-around{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .cursor{
   cursor: pointer;
 }
