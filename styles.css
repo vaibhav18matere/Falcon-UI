@@ -105,6 +105,11 @@ p{
   align-content: flex-start;
   align-items: baseline;
 }
+.d-end{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 .cursor{
   cursor: pointer;
 }
