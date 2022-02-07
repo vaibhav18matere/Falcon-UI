@@ -29,10 +29,10 @@
 
 .landing-page{
     display: flex;
-    height: 100vh;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    height: 100vh;
     padding: 1rem;
 }
 .landing-page-content{
