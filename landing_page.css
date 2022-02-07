@@ -1,15 +1,16 @@
-body {
-    min-height: fit-content;
-}  
-
-/* landing page navbar */
+/* landing page-navbar style*/
 
 .landing-page-nav{
     display: block;
     border: 1px solid var(--light);
     padding: 1rem;
 }
+.navbar-list-container{
+    display: flex;
+    flex-basis: 200px;
+}
 .navbar-list{
+    flex: 1;
     list-style-type: none;
     width: 10vw;  
 }
@@ -19,15 +20,12 @@ body {
     text-decoration: none;
     color: var(--primary);
 }
-.navbar-list-container{
-    flex-shrink: 2;
-}
 .nav-icons{
     color: var(--primary);
     margin: 0 2px;
 }
 
-/* landing page content */
+/* landing page style*/
 
 .landing-page{
     display: flex;
@@ -36,54 +34,28 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem;
-    background-color: var(--light);
 }
 .landing-page-content{
+    flex-wrap: wrap;
     width: 100%;
 }
-.landing-page-img img{
-    max-width: 100%;
-    width: 600px;
+.landing-page-container{
+    flex: 1;
 }
 .landing-page-content h1{
     color:var(--primary);
     letter-spacing: 2px;
     font-weight: bolder;
 }
+.hero-img{
+    width:100%;
+    min-width: 350px;
+}
 .landing-page-info{
     text-align: justify;
     line-height: 1.75rem;
 }
-.landing-page-buttons button:nth-child(1){
-    margin-right: 2rem;
-}
-.installation{
-    padding: 1rem;
-}
 .btn-installation a{
     color:var(--white);
     text-decoration: none;
-
-}
-/* .btn-installation{
-    padding: 0.8rem;
-    margin: 1.5rem;
-    border-radius: 5px;
-    border: none;
-    letter-spacing: 1.5px;
-    font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-    line-height: 1.2rem; 
-} */
-/* .landing-page-content h1{
-    color:var(--primary);
-    letter-spacing: 2px;
-    font-weight: bolder;
-}
- */
-@media only screen and (min-width: 750px) {
-    .landing-page__content {
-      width: 40%;
-    }
 }
