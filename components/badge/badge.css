@@ -10,7 +10,7 @@
     font-size: 1rem;
 }
 .primary-badge{
-    color:white;
+    color:var(--white);
     background: var(--primary-color);
 }
 .secondary-badge{
@@ -18,7 +18,7 @@
     color: var(--primary-color);
 }
 .primary-pill{
-    color: white;
+    color: var(--white);
     background: var(--primary-color);
     border-radius: 10px;
 }
@@ -42,6 +42,6 @@
     width: 25px;
     height: 25px;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white);
     border-radius: 50%;
 }
