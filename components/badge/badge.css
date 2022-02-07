@@ -1,31 +1,33 @@
 .badge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 2rem;
 }
 .badge{
-    margin: 0.5rem;
-    padding: 0.5rem;
-    font-weight: bold;
-    font-size: 1rem;
+    padding: 8px;
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 .primary-badge{
     color:var(--white);
-    background: var(--primary-color);
+    background-color: var(--primary); 
 }
 .secondary-badge{
-    border: 2px solid var(--primary-color);
-    color: var(--primary-color);
+    border: 3px solid var(--primary);
+    color: var(--primary);
 }
 .primary-pill{
     color: var(--white);
-    background: var(--primary-color);
-    border-radius: 10px;
+    background: var(--primary);
+    border-radius: 15px;
 }
 .secondary-pill{
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 10px;
+    color: var(--primary);
+    border: 3px solid var(--primary);
+    border-radius: 15px;
 }
 .notif-icon-badge{
     position: relative;
