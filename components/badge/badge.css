@@ -6,6 +6,13 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.badge-on-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3rem;
+}
 .badge{
     padding: 8px;
     font-size: 1.5rem;
