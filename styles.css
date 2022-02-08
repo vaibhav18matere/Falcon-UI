@@ -56,7 +56,6 @@ p{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 5rem;
   padding: 1rem;
 }
 .sm{
