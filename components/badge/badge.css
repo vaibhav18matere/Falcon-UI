@@ -1,22 +1,11 @@
 .badge-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
-}
-.badge-on-icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 3rem;
+    margin-top: 2rem;
 }
 .badge{
     padding: 8px;
     font-size: 1.5rem;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 .primary-badge{
     color:var(--white);
@@ -29,12 +18,18 @@
 .primary-pill{
     color: var(--white);
     background: var(--primary);
-    border-radius: 15px;
 }
 .secondary-pill{
     color: var(--primary);
     border: 3px solid var(--primary);
-    border-radius: 15px;
+}
+/* badge-on-icon style */
+.badge-on-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3rem;
 }
 .notif-icon-badge{
     position: relative;
