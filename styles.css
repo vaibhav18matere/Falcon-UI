@@ -7,6 +7,12 @@
 @import "/components/badge/badge.css";
 @import "/components/button/button.css";
 @import "/components/responive-image/responsive-img.css";
+@import "/components/card/card.css";
+@import "/components/inputs/inputs.css";
+@import "/components/lists/lists";
+@import "/components/navbar/navbar";
+@import "/components/ratings/ratings.css";
+@import "/components/text-utilities/text-utilities.css";
 
 html, body{
   font-family: 'Open sans', serif, sans-serif;
@@ -56,7 +62,6 @@ p{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 5rem;
   padding: 1rem;
 }
 .sm{
