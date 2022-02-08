@@ -132,10 +132,13 @@ p{
 }
 /* cards with badge */
 .badge-on-card{
-    position: relative;
+    width: fit-content;
+    position: absolute;
     padding: 0.5rem;
     bottom: 600px;
-    left: -150px;
+    top: 10px;
+    height: fit-content;
+    right: 4%;
     color: var(--white);
     background: var(--cart-btn);
     font-size: 1.25rem;

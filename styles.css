@@ -51,6 +51,12 @@ html, body{
   --cart-btn:#fa0404;
   --card-border:#dad9d9;
 }
+.position_relative{
+  position: relative;
+}
+.std_shadow{
+  box-shadow: 0 0 3px 2px var(--light);
+}
 .mb{
   margin-block-start: 0;
   margin-block-end: 0;
