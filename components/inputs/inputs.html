@@ -7,10 +7,32 @@
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/landing_page.css">
     <link rel="stylesheet" href="input.css">
     <title>Falcon UI | Input</title>
 </head>
 <body>
+    <nav class="landing-page-nav">
+        <div class="navbar-container d-flex">
+            <a class="navbar-heading" href="/">falcon-ui</a>
+            <div class="navbar-list-container">
+                <ul class="navbar-list d-flex">
+                    <li class="navbar-list-icons">
+                        <a class="nav-icons" target="_blank" href="https://github.com/vaibhav18matere">
+                            <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav_list_icons">
+                        <a class="nav-icons" target="_blank" href="https://www.linkedin.com/in/vaibhavmatere">
+                            <i class="fa fa-linkedin fa-3x"></i></a>
+                    </li>
+                    <li class="nav_list_icons">
+                        <a class="nav-icons" target="_blank" href="https://twitter.com/vaibhav_matere">
+                            <i class="fa fa-twitter fa-3x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="main-container">
         <h1>Input components</h1>
         <h2>Input component takes input from user and perform different actions accordingly.</h2>
@@ -32,7 +54,7 @@
             <div class="carbon-img-container">
                 <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=853.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2520d-evenly%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-sub-container%2520d-evenly%2522%253E%250A%2520%2520%2520%2520%2509%253Cinput%2520placeholder%253D%2522enter%2520text%2520here%2522%2520class%253D%27text-input%27%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2509%253Ch3%253EText%2520Input%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-sub-container%2520d-evenly%2522%253E%250A%2520%2520%2520%2520%2509%253Cinput%2520placeholder%253D%2522enter%2520number%2520here%2522%2520class%253D%27number-input%27%2520type%253D%2522number%2522%253E%250A%2520%2520%2520%2520%2509%253Ch3%253ENumber%2520Input%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-sub-container%2520d-evenly%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Cinput%2520placeholder%253D%2522enter%2520password%2520here%2522%2520class%253D%27pwd-input%27%2520type%253D%2522password%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Ch3%253EPassword%2520Input%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                    style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
@@ -53,7 +75,7 @@
             <div class="carbon-img-container">
                 <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=853.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522select-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio-input%2522%2520value%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522text%2522%253ERadio%2520Button%253C%252Fspan%253E%250A%2520%2520%2520%2509%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522select-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox-input%2522%2520value%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522text%2522%253ECheckbox%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%250A%253C%252Fdiv%253E"
-                    style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
