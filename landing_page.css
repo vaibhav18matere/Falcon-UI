@@ -137,7 +137,10 @@
 }
 
 .content_box{
+    height: 78vh;
+    overflow: auto;
     padding: 3rem;
+    width: 100%;
 }
 
 
