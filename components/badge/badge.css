@@ -3,6 +3,13 @@
     justify-content: space-around;
     margin: 2rem;
 }
+.badge-on-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3rem;
+}
 .badge{
     margin: 0.5rem;
     padding: 0.5rem;
