@@ -1,6 +1,6 @@
 /* avatar-style */
 .avatar-container{
-    width: 70%;
+    width: 100%;
     min-width: 350px;
     flex-wrap: wrap;
     margin-top: 2rem;
@@ -8,7 +8,4 @@
 .avatar-img{
     object-fit: cover;
     border-radius: 50%;
-}
-.i-frame{
-    margin-top: 2rem;
 }
