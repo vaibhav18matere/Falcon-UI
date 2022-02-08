@@ -1,0 +1,61 @@
+/* landing page-navbar style*/
+
+.landing-page-nav{
+    display: block;
+    border: 1px solid var(--light);
+    padding: 1rem;
+}
+.navbar-list-container{
+    display: flex;
+    flex-basis: 200px;
+}
+.navbar-list{
+    flex: 1;
+    list-style-type: none;
+    width: 10vw;  
+}
+.navbar-heading{
+    font-weight: bolder;
+    font-size:x-large;
+    text-decoration: none;
+    color: var(--primary);
+}
+.nav-icons{
+    color: var(--primary);
+    margin: 0 2px;
+}
+
+/* landing page style*/
+
+.landing-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 1rem;
+}
+.landing-page-content{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.landing-page-container{
+    flex: 1;
+}
+.landing-page-content h1{
+    color:var(--primary);
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.hero-img{
+    width:100%;
+    min-width: 350px;
+}
+.landing-page-info{
+    text-align: justify;
+    line-height: 1.75rem;
+}
+.btn-installation a{
+    color:var(--white);
+    text-decoration: none;
+}

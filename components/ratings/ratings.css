@@ -1,0 +1,7 @@
+.rating-component{
+    margin-top: 2rem;
+}
+.star-ratings .fa:hover{
+    cursor: pointer;
+    color:var(--primary);
+}
