@@ -1,49 +1,29 @@
-.alert-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 15rem;
-}
 .alert{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width:90%;
-    padding: 0.5rem 1rem;
+    width:70%;
+    padding: 1rem;
 }
 .alert div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-right: 1.5rem;
     width: 2rem;
 }
 .alert span{
     font-weight: bolder;
-    letter-spacing: 0.1rem;
+    font-size: larger;
+    letter-spacing: 2px;
 }
 .success-alert{
     color: var(--success);
-    background: #d1e7dd;
-    border-color: #badbac;
-    border-radius: 0.15rem;
+    background:var(--success-bg);
 }
 .warning-alert{
-    color:var(--warning);
-    background-color: #fff3cd;
-    border-color: #ffecb5;
-    border-radius: 0.15rem;
+    color:var(--dark);
+    background-color:var(--warning-bg);
 }
 .danger-alert{
     color: var(--danger);
-    background-color: #f8d7da;
-    border-color: #f5c2c7;
-    border-radius: 0.15rem;
+    background-color: var(--danger-bg);
 }
 .info-alert{
     color: var(--info);
-    background-color: #d5d9dd;
-    border-color: #d3d6d8;
-    border-radius: 0.15rem;
+    background-color: var(--info-bg);
 }

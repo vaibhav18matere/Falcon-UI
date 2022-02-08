@@ -4,37 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/landing_page.css">
     <link rel="stylesheet" href="./alert.css">
-    <title>Falcon UI | Home</title>
+    <title>Falcon UI | Alert</title>
 </head>
 <body>
+    <nav class="landing-page-nav">
+        <div class="navbar-container d-flex">
+            <a class="navbar-heading" href="/">falcon-ui</a>
+            <div class="navbar-list-container">
+                <ul class="navbar-list d-flex">
+                    <li class="navbar-list-icons">
+                        <a class="nav-icons" target="_blank" href="https://github.com/vaibhav18matere">
+                            <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav_list_icons">
+                        <a class="nav-icons" target="_blank" href="https://www.linkedin.com/in/vaibhavmatere">
+                            <i class="fa fa-linkedin fa-2x"></i></a>
+                    </li>
+                    <li class="nav_list_icons">
+                        <a class="nav-icons" target="_blank" href="https://twitter.com/vaibhav_matere">
+                            <i class="fa fa-twitter fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="main-container">
-        <h1 class="mb">Alert</h1>
-        <p>An alert display a short and important message in a way that attracts the user's attention without interrupting the user's task</p>
-        <div class="alert-container mgn">
-            <div class="alert success-alert">
+        <h1>Alert</h1>
+        <h2>An alert display a short and important message in a way that attracts the user's attention without interrupting the user's task</h2>
+        <div class="alert-container display-flex">
+            <div class="alert success-alert mgn d-start border">
                 <div><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></div>
-                <span>Success Alert</span>
+                <span>Success Alert Message will be shown here</span>
             </div>       
-            <div class="alert danger-alert mgn">
+            <div class="alert danger-alert mgn d-start border">
                 <div><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></div>
-                <span>Danger Alert</span>
+                <span>Danger Alert Message will be shown here</span>
             </div>
-            <div class="alert warning-alert mgn">
+            <div class="alert warning-alert mgn d-start border">
                 <div><i class="fa fa-exclamation-circle fa-2x" aria-hidden="true"></i></div>
-                <span>Warning Alert</span>
+                <span>Warning Alert Message will be shown here</span>
             </div>
-            <div class="alert info-alert mgn">
+            <div class="alert info-alert mgn d-start border">
                 <div><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></div>
-                <span>Information Alert</span>
+                <span>Information Alert Message will be shown here</span>
             </div>
         </div>
         <div class="carbon-img-container">
             <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=1086.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-check-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ESuccess%2520Alert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-times-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EDanger%2520Alert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-exclamation-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EWarning%2520Alert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-info-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EInformation%2520Alert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 1100px; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=1026.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success-alert%2520mgn%2520d-start%2520border%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-check-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%253ESuccess%2520Alert%2520Message%2520will%2520be%2520shown%2520here%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520danger-alert%2520mgn%2520d-start%2520border%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-times-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%253EDanger%2520Alert%2520Message%2520will%2520be%2520shown%2520here%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning-alert%2520mgn%2520d-start%2520border%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-exclamation-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%253EWarning%2520Alert%2520Message%2520will%2520be%2520shown%2520here%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info-alert%2520mgn%2520d-start%2520border%2522%253E%250A%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fa%2520fa-info-circle%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cspan%253EInformation%2520Alert%2520Message%2520will%2520be%2520shown%2520here%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="width:100%; height:600px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>

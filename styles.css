@@ -29,11 +29,14 @@ html, body{
   --success-light:#95e67a;
   --danger:#d13d30;
   --danger-light:#c66c64db;
+  --danger-bg:#f0c5c9;
   --alert:#df7b7b;
   --warning:#ffee00;
   --warning-light:#e9e93ed2;
+  --warning-bg:#fff3cd;
   --info:#07d3fb;
   --info-light:#8ed7e6e3;
+  --info-bg:#e9f0f7;
   --white:#fff;
   --light:#dde5ec;
   --dark:#1c1f23;
@@ -43,6 +46,7 @@ html, body{
   --whatsapp:#25D366;
   --border-radius-clr:#121212;
   --success:#175b3b;
+  --success-bg:#a0e4c6;
   --danger:#842029;
   --cart-btn:#fa0404;
   --card-border:#dad9d9;
@@ -88,14 +92,14 @@ p{
   max-width: 100%;
   margin-top: 4rem;
 }
-.d-flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .flex-center {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .d-evenly{
@@ -110,6 +114,11 @@ p{
   align-content: flex-start;
   align-items: baseline;
 }
+.d-start{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .d-end{
   display: flex;
   align-items: center;
@@ -122,4 +131,7 @@ p{
 }
 .cursor{
   cursor: pointer;
+}
+.border{
+  border-radius: 10px;
 }
