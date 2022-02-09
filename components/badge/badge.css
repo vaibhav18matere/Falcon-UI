@@ -3,9 +3,9 @@
     margin-top: 2rem;
 }
 .badge{
-    padding: 8px;
+    padding: 5px;
     font-size: 1.5rem;
-    margin: 1.5rem;
+    margin: 2rem;
 }
 .primary-badge{
     color:var(--white);
@@ -23,6 +23,9 @@
     color: var(--primary);
     border: 3px solid var(--primary);
 }
+.badge-carbon{
+    margin-bottom: -250px;
+}
 /* badge-on-icon style */
 .badge-on-icon{
     display: flex;
@@ -38,6 +41,7 @@
     border-radius: 50%;
     border: none;
     outline: none;
+    margin: 2rem;
 }
 .total-badge-notif{
     position: absolute;
@@ -45,7 +49,7 @@
     right: 15px;
     width: 25px;
     height: 25px;
-    background-color: var(--primary-color);
+    background-color: var(--primary);
     color: var(--white);
     border-radius: 50%;
 }
