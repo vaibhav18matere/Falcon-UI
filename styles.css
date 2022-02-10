@@ -9,8 +9,8 @@
 @import "/components/responive-image/responsive-img.css";
 @import "/components/card/card.css";
 @import "/components/inputs/inputs.css";
-@import "/components/lists/lists";
-@import "/components/navbar/navbar";
+@import "/components/lists/lists.css";
+@import "/components/navbar/navbar.css";
 @import "/components/ratings/ratings.css";
 @import "/components/text-utilities/text-utilities.css";
 
