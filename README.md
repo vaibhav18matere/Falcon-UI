@@ -6,6 +6,8 @@ A lightweight, easy to use and fully customizable CSS component library
 
 Insert gif or video link to demo 
 
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
 ## Features
 
@@ -15,22 +17,17 @@ Insert gif or video link to demo
 - Reusable
 
 ### Components 
- 1. Avatar
- 2. Alert
+ 1. Alert
+ 2. Avatar
  3. Badge
  4. Button
  5. Card 
  6. Image
  7. Input
- 8. Text Utilities
- 9. Lists
- 10. Navigation
- 11. MOdal
- 12. Rating
- 13. Toast/Notify/Snackbar
- 14. Simplified Grid
- 15. Navigation
- 16. Slider
+ 8. Lists
+ 9. Navigation
+ 10. Rating
+ 11. Utilities
 
 ## Installation
 
