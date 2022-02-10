@@ -59,3 +59,7 @@ Just add followinf lines of code in `<head/>` tag of your html file.
 
 - [@vaihbav18matere](https://github.com/vaibhav18matere)
 
+
+### Feedback
+
+If you have any feedback, please reach out to me at vpm00718897@gmail.com
