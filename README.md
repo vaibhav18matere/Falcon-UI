@@ -36,7 +36,7 @@ Insert gif or video link to demo
 
 To use this component library in your project -
 
-Just add following lines of code in a head tag of your html file.
+Just add following lines of code in a `<head/> tag` of your html file.
 
 ```bash 
 
@@ -47,7 +47,7 @@ Just add following lines of code in a head tag of your html file.
 
 To have a icons in your website or webapp you also need to add Font Awesome CDN link.  
 
-Just add followinf lines of code in head tag of your html file.
+Just add followinf lines of code in `<head/> tag` of your html file.
 
 ```bash 
 
