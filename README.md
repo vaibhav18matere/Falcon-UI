@@ -1,6 +1,19 @@
-# css-component-library
- Customized CSS components which are developed to import in your project easily !
- 
+# Falcon UI
+
+A lightweight, easy to use and fully customizable CSS component library
+
+## Preview
+
+Insert gif or video link to demo 
+
+
+## Features
+
+- Lighweight
+- Customizable
+- Faster
+- Reusable
+
 ### Components 
  1. Avatar
  2. Alert
@@ -18,3 +31,31 @@
  14. Simplified Grid
  15. Navigation
  16. Slider
+
+## Installation
+
+To use this component library in your project -
+
+Just add following lines of code in a head tag of your html file.
+
+```bash 
+
+<link rel="stylesheet" href="https://falconui.netlify.app/styles.css">
+
+
+```
+
+To have a icons in your website or webapp you also need to add Font Awesome CDN link.  
+
+Just add followinf lines of code in head tag of your html file.
+
+```bash 
+
+<link rel="stylesheet" href="https://falconui.netlify.app/styles.css">
+
+
+```
+## Author
+
+- [@vaihbav18matere](https://github.com/vaibhav18matere)
+
