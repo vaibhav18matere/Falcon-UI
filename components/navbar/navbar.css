@@ -3,12 +3,12 @@
   height: 20rem;
   margin: 1rem 0 2rem 0;
   overflow-y: auto;
-  border: 1px solid var(--secondary-light);
 }
 .navbar{
   background-color: var(--primary-light);
   flex-wrap: wrap;
   color: var(--white);
+  margin-top: 0;
 }
 .navbar>ul{
   list-style: none;
@@ -31,7 +31,7 @@
   margin-left: 2rem;
   font-size: 1.25rem;
   font-weight:bold;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .header-fixed{
   position: sticky;
@@ -57,13 +57,13 @@
 } 
 .drawer-container{
   background-color: var(--white);
-  width: 200px;
+  width: 250px;
   height: 100%;
   left: -250px;
   padding: 10px;
   position: absolute;
   z-index: 1;
-  top: 26%;
+  top: 0%;
   box-shadow: var(--secondary-light , 0.35) 0px 5px 15px;
 }
 .drawer-title{
@@ -74,13 +74,14 @@
 .drawer-close{
   font-size: 2rem;
   cursor: pointer;
+  color: var(--danger);
 }
 .drawer-trans-on{
   left: 0;
   transition: left 0.5s ease-out;
 }
 .drawer-trans-off{
-  left: -225px;
+  left: -250px;
   transition: left 0.5s ease-out;
 }
 .drawer-menu a{
