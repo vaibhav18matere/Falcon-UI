@@ -7,9 +7,9 @@
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/landing_page.css">
-    <link rel="stylesheet" href="ratings.css">
-    <title>Falcon UI | ratings</title>
+    <link rel="stylesheet" href="/landing_page.css">    
+    <link rel="stylesheet" href="modal.css">    
+    <title>Falcon UI | modal</title>
 </head>
 <body>
     <nav class="navbar-container d-flex">
@@ -48,31 +48,29 @@
             <div class="slider_box_item"><a href="../responive-image/responsive-img.html">Images</a></div>
             <div class="slider_box_item"><a href="../inputs/inputs.html">Inputs</a></div>
             <div class="slider_box_item"><a href="../lists/lists.html">List</a></div>
-            <div class="slider_box_item"><a href="../modal/modal.html">Modal</a></div>
+            <div class="slider_box_item"><a class="active_item" href="../modal/modal.html">Modal</a></div>
             <div class="slider_box_item"><a href="../navbar/navbar.html">Navbar</a></div>
-            <div class="slider_box_item"><a class="active_item" href="../ratings/ratings.html">Rating</a></div>
+            <div class="slider_box_item"><a href="../ratings/ratings.html">Rating</a></div>
             <div class="slider_box_item"><a href="../text-utilities/text-utilities.html">Utilities</a></div>
         </div>
         <div class="content_box">
-            <h1>Ratings</h1>
-            <p>Rating component is used to give stars rating for a product / order reviews</p>
-            <div class="rating-component flex-center">
-                <div class="star-ratings">
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star-half-o fa-2x"></i>
-                    <i class="fa fa-star-o fa-2x"></i>
+            <h1>Modal</h1>
+            <p class="modal-descr">A modal is a dialog box/popup window that is displayed on top of the current page</p>
+            <div class="flex-center">
+                    <input type="checkbox" id="click" >
+                    <label for="click" class="click-box">Submit form</label>
+                <div class="content">
+                    <div class="header">
+                    <h2>Admission form</h2>
+                    <label for="click" class="cross">&times;</label>
                 </div>
-            </div>
-            <div class="carbon-img-container">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=853.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522star-ratings%2522%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-half-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%250A%253C%252Fdiv%253E"
-                    style="width:100%; height: 600px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-        </div>      
+                <div>
+                    <label for="click" class="check">&check;</label>
+                    <p id="submit-form-txt">The form is submited !</p>
+                    <label for="click" class="close-btn">close</label> 
+                </div>
+            </div>    
+        </div>       
     </div>
 </body>
 </html>
