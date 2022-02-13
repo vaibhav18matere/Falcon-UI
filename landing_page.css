@@ -12,9 +12,8 @@
 .navbar-list-container{
     display: flex;
     flex-basis: 200px;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
-
 .navbar-container{
     height: 10vh;
     box-shadow: 0 0 3px 2px var(--light);
@@ -42,11 +41,9 @@
 }
 .nav-icons{
     color: var(--primary);
-    margin: 0 2px;
+    margin: 0 0.125rem;
 }
-
 /* landing page style*/
-
 .landing-page{
     display: flex;
     justify-content: space-around;
@@ -64,7 +61,7 @@
 }
 .landing-page-content h1{
     color:var(--primary);
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     font-weight: bolder;
 }
 .hero-img{
@@ -75,18 +72,20 @@
     text-align: justify;
     line-height: 1.75rem;
 }
+.btn-installation{
+    padding: 0.5rem;
+}
 .btn-installation a{
     color:var(--white);
     text-decoration: none;
 }
-
 .brand_name{
     flex-basis: 150px;
     text-align: center;
     margin-left: 5%;
     position: relative;
 }
-
+/* animation on icons */
 .brand_animation{
     display: none;
     width: 100%;
@@ -106,7 +105,6 @@
     display: block;
     animation: growLength 1s ease;
 }
-
 /* Siderbar*/
 .midlle_container{
     display: flex;
@@ -128,7 +126,7 @@
 }
 .slider_box_item a{
     padding: 0.3em 50px;
-    color: black;
+    color: var(--dark);
     text-decoration: none;
 }
 .slider_box_item:hover{
