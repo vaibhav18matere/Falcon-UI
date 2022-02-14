@@ -81,7 +81,7 @@
   transition: left 0.5s ease-out;
 }
 .drawer-trans-off{
-  left: -250px;
+  left: -300px;
   transition: left 0.5s ease-out;
 }
 .drawer-menu a{
