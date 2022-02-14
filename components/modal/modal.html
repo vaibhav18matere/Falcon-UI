@@ -54,22 +54,25 @@
             <div class="slider_box_item"><a href="../text-utilities/text-utilities.html">Utilities</a></div>
         </div>
         <div class="content_box">
-            <h1>Modal</h1>
-            <p class="modal-descr">A modal is a dialog box/popup window that is displayed on top of the current page</p>
-            <div class="flex-center">
-                    <input type="checkbox" id="click" >
-                    <label for="click" class="click-box">Submit form</label>
-                <div class="content">
-                    <div class="header">
+            <p>A modal is a dialog box/popup window that is displayed on top of the current page to show some message</p>
+            <input type="checkbox" id="click" >
+            <label for="click" class="click-box">Submit form</label>
+            <div class="content">
+                <div class="header">
                     <h2>Admission form</h2>
                     <label for="click" class="cross">&times;</label>
                 </div>
-                <div>
-                    <label for="click" class="check">&check;</label>
-                    <p id="submit-form-txt">The form is submited !</p>
-                    <label for="click" class="close-btn">close</label> 
-                </div>
-            </div>    
+                <label for="click" class="check">&check;</label>
+                <p class="modal-message">Form submited !</p>
+                <label for="click" class="close-btn">close</label> 
+            </div>
+            <div class="carbon-img-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=1026.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522click%2522%2520%253E%250A%253Clabel%2520for%253D%2522click%2522%2520class%253D%2522click-box%2522%253ESubmit%2520form%253C%252Flabel%253E%250A%250A%253Cdiv%2520class%253D%2522content%2522%253E%250A%2509%253Cdiv%2520class%253D%2522header%2522%253E%250A%2509%253Ch2%253EAdmission%2520form%253C%252Fh2%253E%250A%2509%253Clabel%2520for%253D%2522click%2522%2520class%253D%2522cross%2522%253E%2526times%253B%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%253E%250A%2509%253Clabel%2520for%253D%2522click%2522%2520class%253D%2522check%2522%253E%2526check%253B%253C%252Flabel%253E%250A%2509%253Cp%2520id%253D%2522submit-form-txt%2522%253EThe%2520form%2520is%2520submited%2520%21%253C%252Fp%253E%250A%2520%2509%253Clabel%2520for%253D%2522click%2522%2520class%253D%2522close-btn%2522%253Eclose%253C%252Flabel%253E%2520%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 600px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
         </div>       
     </div>
 </body>
