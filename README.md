@@ -3,11 +3,7 @@
 A lightweight, easy to use and fully customizable CSS component library
 
 ## Preview
-
-Insert gif or video link to demo 
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![readme file](https://user-images.githubusercontent.com/59862355/154448256-a9bd2636-67ca-4757-9384-534029dfb80d.jpg)
 
 ## Features
 
@@ -24,10 +20,11 @@ Insert gif or video link to demo
  5. Card 
  6. Image
  7. Input
- 8. Lists
- 9. Navigation
- 10. Rating
- 11. Utilities
+ 8. List
+ 9. Modal
+ 10. Navbar
+ 11. Rating
+ 12. Utilities
  ... soon adding more components  
 
 ## Installation
