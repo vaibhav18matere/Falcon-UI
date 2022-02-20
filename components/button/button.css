@@ -1,14 +1,13 @@
 .btn{
     padding: 0.8rem;
-    margin: 1.5rem;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     border: none;
     letter-spacing: 1.5px;
     font-weight: 700;
     color: var(--white);
     cursor: pointer;
     text-decoration: none;
-    line-height: 1.2rem;
+
 }
 .btn-primary{
     background-color: var(--primary);
@@ -37,7 +36,7 @@
 }
 .btn-warning{
     background-color: var(--warning);
-    color:var(--white);
+    color:var(--dark);
 }
 .btn-warning:hover{
     background-color: var(--warning-light);
@@ -78,7 +77,6 @@
 /* Outline buttons */
 .btn-outline{
     padding: 0.8rem;
-    margin: 1.5rem;
     cursor: pointer;
     border-radius: 5px;
     letter-spacing: 0.1rem;
@@ -121,7 +119,7 @@
 }
 .btn-warning-outline{
     border-color: var(--warning-light);
-    color: var(--warning);
+    color: var(--dark);
 }
 .btn-warning-outline:hover{
     background-color: var(--warning);
@@ -146,10 +144,7 @@
 /* Icon buttons */
 .btn-icon{
     padding: 0.8rem;
-    margin: 3rem;
-    border-radius: 5px;
     border: none;
-    color: var(--dark);
     cursor: pointer;
     background: none;
 }
@@ -179,11 +174,14 @@
     color:var(--dark);
 }
 .google-plus{
-    color:var(--google-plus);
+    color:var(--google-plus-clr);
 }
 .twitter{
-    color: var(--twitter);
+    color: var(--twitter-clr);
 }
 .whatsapp{
-    color:var(--whatsapp);
+    color:var(--whatsapp-clr);
+}
+.btn-img-container{
+    margin: 2rem;
 }

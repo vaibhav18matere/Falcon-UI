@@ -48,8 +48,8 @@
   background: var(--secondary-light);
 }
 .navbar-right img{
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 } 
 .drawer-txt{
@@ -73,7 +73,6 @@
 }
 .drawer-close{
   font-size: 2rem;
-  cursor: pointer;
   color: var(--danger);
 }
 .drawer-trans-on{
@@ -91,15 +90,12 @@
   letter-spacing:0.5px;
 }
 .drawer-menu a .link{
-  display: flex;
-  align-items: center;
   gap: 1rem;
   padding: 0.5rem 2rem 0.5rem 0.5rem;
   border-radius: 0px 15px 15px 0px;
-  cursor: pointer;
 }
 .drawer-menu .link:hover {
-  background-color: var(--secondary-light);
+  background-color: var(--light);
 }
 
 @media screen and (max-width:550px){

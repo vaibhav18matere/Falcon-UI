@@ -2,10 +2,9 @@
     flex-wrap: wrap;
     margin-top: 2rem;
 }
-.badge{
-    padding: 5px;
+.badges{
+    padding:2rem;
     font-size: 1.5rem;
-    margin: 2rem;
 }
 .primary-badge{
     color:var(--white);
@@ -28,10 +27,6 @@
 }
 /* badge-on-icon style */
 .badge-on-icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     margin: 3rem;
 }
 .notif-icon-badge{

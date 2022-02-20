@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="card.css">
-    <link rel="stylesheet" href="/components/getting-started/start.css">
     <link rel="stylesheet" href="/landing_page.css">
     <title>Falcon UI | cards</title>
 </head>
@@ -60,9 +57,9 @@
                 <h2>Vertical card</h2>
                 <div class="flex-center ">
                     <div class="vertical-card std_shadow">
-                        <img class="responsive-img" src="/components/card/kurta.jpg" alt=""/>
-                        <div class="card-desc">
-                            <div class="card-info">
+                        <img class="responsive-img" src="/components/card/kurta.jpg" alt="card-img"/>
+                        <div class="card-desc dc-between">
+                            <div class="card-info dc-between">
                                 <h3 class="mb">Brand Logars</h3>
                                 <small>Ethnic Kurta</small>
                                 <div class="price">
@@ -93,16 +90,16 @@
                 <h2>Card with badge</h2>
                 <div class="flex-center" style="flex-direction: column;">               
                     <div class="position_relative std_shadow">
-                        <img class="responsive-img" src="/components/card/kurta.jpg" alt="">
+                        <img class="responsive-img" src="/components/card/kurta.jpg" alt="card-img">
                         <span class="badge-on-card">SOLD OUT</span>
-                        <div class="badge-card-desc">
+                        <div class="badge-card-desc dc-between">
                             <div class="primary pri-badge-btn">
                                 <button class="btn btn-secondary">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carbon-container">
+                <div class="margin-top3">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=751.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-on-card%2522%253ESOLD%2520OUT%253C%252Fspan%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-card-desc%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522primary%2520pri-badge-btn%2522%253E%250A%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EADD%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                         style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
@@ -120,7 +117,7 @@
                             </div>
                             <div class="cart-item-flex d-evenly">
                                 <div class="cart-item__details">
-                                    <div class="details__primary">
+                                    <div class="details__primary dc-between">
                                         <h2>Sugar cosmetics</h2>
                                         <h3>Ethnic Kurta</h3>
                                         <h4>Sold by: Vinita Singh</h4>
@@ -133,9 +130,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="horizontal-card-btns d-flex">                      
-                                <button class="btn btn-danger">REMOVE ITEM</button>
-                                <button class="btn btn-primary">ADD TO WISHLIST</button> 
+                        <div class="horizontal-card-btns d-evenly">                      
+                            <button class="btn btn-danger">REMOVE ITEM</button>
+                            <button class="btn btn-primary">ADD TO WISHLIST</button> 
                         </div>
                     </div>
                 </div>
@@ -151,11 +148,10 @@
                 <h2>Text Only Card with shadow</h2>
                 <div class="flex-center">
                     <div class="text-card box-shadow">
-                        <h3 class="title">Namita Thapar</h3>
-                        <h4 class="subtitle">" Ye meri expertise nahi hai "</h4>
-                        <p>Mai personally isse connect nahi kar pa rahi hu. This is pre-revenue business model and Iska "gross margin" bhi bahot kam hai.</p>
-                        <strong>For that reason I am out !</strong>
-                        <button class="btn btn-primary">I'm Out</button>
+                        <h3 class="title">Card title</h3>
+                        <h4 class="subtitle">"Brand message or title"</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore beatae illum, odio voluptates sint eligendi! elit.</p>
+                        <button class="btn btn-primary">Click here</button>
                     </div>
                 </div>
                 <div class="margin-top3">
@@ -170,12 +166,12 @@
                 <h2>Text Overlay Card</h2>
                 <p>When you hover on card, there are text overlays</p>
                 <div class="flex-center">
-                    <div class="overlay-card std_shadow">
+                    <div class="overlay-card std_shadow cursor">
                         <img class="responsive-img" src="/components/card/kurta.jpg" alt="overlay-img">
                         <div class="txt-overlay">
-                            <h2>Aman Gupta (boAt)</h2>
-                            <h4>Ooo Hum bhi bana lenge !!</h4>
-                            <p>Mat soch, mana kar de...Haan me de dunga, Tu tension mat le</p>
+                            <h2>Brand Logars</h2>
+                            <h4>Ethnic Mens Kurta</h4>
+                            <p class="para-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nulla amet.</p>
                         </div>
                     </div>
                 </div>
@@ -194,17 +190,19 @@
                     <div class="dismiss-card pointer">
                         <img class="responsive-img" src="/components/card/kurta.jpg" alt="dismiss card">
                         <div class="badge-cross-btn">
-                            <i class="fa fa-close fa-3x"></i>
+                            <i class="fa fa-close fa-3x cursor"></i>
                         </div>
                         <div class="dismiss-card__description">
-                            <h3>Ashneer Grover - Bharat Pay</h3>
-                            <small>Bhai, tujhse to ye nahi ho payega. band kar ye sab...</small>
-                            <strong>Ye sab doglapan hai</strong>
-                            <button class="btn btn-primary">Dhanda Banao</button>
+                            <h3>Brand Logars</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h5>Offer for limited period only</h5>
+                            <div class="flex-center">
+                                <button class="btn btn-primary">Check Deals</button>
+                            </div>                           
                         </div>
                     </div>
                 </div>
-                <div class="dismiss-card-carbon-container margin-top3">
+                <div class="margin-top3">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=javascript&width=678.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522dismiss-card%2520pointer%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-cross-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522dismiss-card__description%2522%253E%250A%2520%2520%2520%2520%253Ch3%253E%2520Sub-heading%2520here%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%253Esome%2520text%2520here...%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cstrong%253Eaction%2520msg%2520here%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EClick%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                         style="width:100%; height:400px; border:0; transform: scale(1); overflow:hidden;"

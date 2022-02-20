@@ -1,21 +1,12 @@
 /* vertical card */
-p{
-    line-height: 1.5rem;
-}
 .responsive-img{
     max-width: 100%;
 }
 .card-desc{
     padding: 0.5rem 0.75rem 0.75rem 0.75rem;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .card-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     letter-spacing: 1.5px;
     height: 12rem;
 }
@@ -27,10 +18,10 @@ p{
     padding-right: 0.45rem;
     letter-spacing: 1px;
 }
-.discount {
+.discount{
     color: var(--primary);
 } 
-.secondary .item-left {
+.secondary .item-left{
     color: var(--danger); 
 } 
 .btn-icon{
@@ -55,16 +46,13 @@ p{
 .cart-item-img{
     width: 15rem;
 } 
-.cart-item-flex {
+.cart-item-flex{
     flex-wrap: wrap;
     align-content: space-around;
     flex-direction: row;
 }
-.details__primary {
+.details__primary{
     min-height: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 1rem;
 }
 .price{
@@ -79,9 +67,6 @@ p{
 }
 .price__discount {
     color: var(--primary);
-}
-.horizontal-card-btns{
-    justify-content: center;
 }
 /*text card */
 .text-card {
@@ -147,9 +132,6 @@ p{
 }
 .badge-card-desc{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .pri-badge-btn{
     margin: 1rem 10rem
@@ -161,6 +143,12 @@ p{
 .dismiss-card{
     width: 20rem;
     position: relative;
+}
+.dismiss-card__description{
+    padding-bottom: 0.5rem;
+}
+.dismiss-card__description h5{
+    color: var(--cart-btn);
 }
 .badge-cross-btn{
     position: absolute;

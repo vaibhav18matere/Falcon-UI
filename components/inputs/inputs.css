@@ -8,9 +8,10 @@
 .number-input,
 .pwd-input{
     max-width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     padding: 1rem 1.5rem;
     border: 2px solid var(--secondary-light);
+    border-radius: 0.5rem;
     font-weight: bolder;
 }
 .text{
