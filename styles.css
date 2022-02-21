@@ -9,6 +9,7 @@
 @import "/components/avatar/avatar.css";
 @import "/components/badge/badge.css";
 @import "/components/button/button.css";
+@import "/components/grid/grid.css";
 @import "/components/responive-image/responsive-img.css";
 @import "/components/card/card.css";
 @import "/components/inputs/inputs.css";
@@ -74,6 +75,9 @@ html, body{
 }
 .ml-2{
   margin-left: 2rem;
+}
+.mr-1{
+  margin: 1rem;
 }
 p{
   text-align: justify;
