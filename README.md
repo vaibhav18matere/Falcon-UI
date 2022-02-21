@@ -13,7 +13,7 @@ A lightweight, easy to use and fully customizable CSS component library
 - Reusable
 
 ### Components 
- 1. Alert
+ 1. [Alert](https://boostmat-ui.netlify.app/components/alert/alert.html)
  2. Avatar
  3. Badge
  4. Button
