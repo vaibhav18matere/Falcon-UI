@@ -9,13 +9,15 @@
 @import "/components/avatar/avatar.css";
 @import "/components/badge/badge.css";
 @import "/components/button/button.css";
+@import "/components/card/card.css";
 @import "/components/grid/grid.css";
 @import "/components/responive-image/responsive-img.css";
-@import "/components/card/card.css";
 @import "/components/inputs/inputs.css";
 @import "/components/lists/lists.css";
+@import "/components/modal/modal.css";
 @import "/components/navbar/navbar.css";
 @import "/components/ratings/ratings.css";
+@import "/components/slider/slider.css";
 @import "/components/text-utilities/text-utilities.css";
 
 html, body{
@@ -171,11 +173,6 @@ ul li{
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
-}
-.carbon-img-container{
-  overflow: hidden;
-  max-width: 100%;
-  margin-top: 3rem;
 }
 .flex-center{
   display: flex;
