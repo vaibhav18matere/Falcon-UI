@@ -13,18 +13,18 @@ A lightweight, easy to use and fully customizable CSS component library
 - Reusable
 
 ### Components 
- 1. [Alert](https://boostmat-ui.netlify.app/components/alert/alert.html)
- 2. Avatar
- 3. Badge
- 4. Button
- 5. Card 
- 6. Image
- 7. Input
- 8. List
- 9. Modal
- 10. Navbar
- 11. Rating
- 12. Utilities
+ 1. [Alert](https://falconui.netlify.app/components/alert/alert.html)
+ 2. [Avatar](https://falconui.netlify.app/components/avatar/avatar.html)
+ 3. [Badge](https://falconui.netlify.app/components/badge/badge.html)
+ 4. [Button](https://falconui.netlify.app/components/button/button.html)
+ 5. [Card](https://falconui.netlify.app/components/card/card.html) 
+ 6. [Image](https://falconui.netlify.app/components/responive-image/responsive-img.html)
+ 7. [Input](https://falconui.netlify.app/components/inputs/inputs.html)
+ 8. [List](https://falconui.netlify.app/components/lists/lists.html)
+ 9. [Modal](https://falconui.netlify.app/components/modal/modal.html)
+ 10. [Navbar](https://falconui.netlify.app/components/navbar/navbar.html)
+ 11. [Rating](https://falconui.netlify.app/components/ratings/ratings.html)
+ 12. [Utilities](https://falconui.netlify.app/components/text-utilities/text-utilities.html)
  ... soon adding more components  
 
 ## Installation
@@ -42,7 +42,7 @@ Just add following lines of code in a `<head/>` tag of your html file.
 
 To have a icons in your website or webapp you also need to add Font Awesome CDN link.  
 
-Just add followinf lines of code in `<head/>` tag of your html file.
+Just add followinG lines of code in `<head/>` tag of your html file.
 
 ```bash 
 
