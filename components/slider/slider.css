@@ -1,0 +1,14 @@
+.slider-range{
+    min-width: 350px;
+    width: 50%;
+    margin: auto;
+}
+.range{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.input-progress{
+    width: 80%;
+    margin: 0.5rem auto;
+}
