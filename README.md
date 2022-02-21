@@ -3,7 +3,8 @@
 A lightweight, easy to use and fully customizable CSS component library
 
 ## Preview
-![readme file](https://user-images.githubusercontent.com/59862355/154448256-a9bd2636-67ca-4757-9384-534029dfb80d.jpg)
+![previewww](https://user-images.githubusercontent.com/59862355/154905065-1ddbc32f-40b9-441b-b620-4513e922491f.gif)
+
 
 ## Features
 
