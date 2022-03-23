@@ -15,7 +15,8 @@ A lightweight, easy to use and fully customizable CSS component library
 
 #### What's Next you can expect from this library ?
 
-- Dark Mode 
+- Dark Mode
+- Mobile Responsiveness
 
 ### Components 
  1. [Alert](https://falconui.netlify.app/components/alert/alert.html)
