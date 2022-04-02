@@ -178,3 +178,23 @@
 .whatsapp{
     color:var(--whatsapp-clr);
 }
+/* floating-button */
+.move-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 9;
+}
+.move-to-top a{
+    height: 40px;
+    width: 35px;
+    text-align: center;
+    background-color: var(--info-bg);
+    display: block;
+    border-radius:50%;
+    padding: 0.5rem;
+} 
+.move-to-top a span{
+    color: var(--primary);
+    line-height: 40px;
+}
