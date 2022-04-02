@@ -169,10 +169,6 @@
 .comment{
     color:var(--info);
 }
-/*Floating Icon buttons */
-.plus{
-    color:var(--dark);
-}
 .google-plus{
     color:var(--google-plus-clr);
 }
@@ -181,7 +177,4 @@
 }
 .whatsapp{
     color:var(--whatsapp-clr);
-}
-.btn-img-container{
-    margin: 2rem;
 }
