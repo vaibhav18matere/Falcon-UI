@@ -13,20 +13,26 @@ A lightweight, easy to use and fully customizable CSS component library
 - Faster
 - Reusable
 
+#### What's Next you can expect from this library ?
+
+- Dark Mode
+- Mobile Responsiveness
+
 ### Components 
  1. [Alert](https://falconui.netlify.app/components/alert/alert.html)
  2. [Avatar](https://falconui.netlify.app/components/avatar/avatar.html)
  3. [Badge](https://falconui.netlify.app/components/badge/badge.html)
  4. [Button](https://falconui.netlify.app/components/button/button.html)
- 5. [Card](https://falconui.netlify.app/components/card/card.html) 
- 6. [Image](https://falconui.netlify.app/components/responive-image/responsive-img.html)
- 7. [Input](https://falconui.netlify.app/components/inputs/inputs.html)
- 8. [List](https://falconui.netlify.app/components/lists/lists.html)
- 9. [Modal](https://falconui.netlify.app/components/modal/modal.html)
- 10. [Navbar](https://falconui.netlify.app/components/navbar/navbar.html)
- 11. [Rating](https://falconui.netlify.app/components/ratings/ratings.html)
- 12. [Utilities](https://falconui.netlify.app/components/text-utilities/text-utilities.html)
- ... soon adding more components  
+ 5. [Card](https://falconui.netlify.app/components/card/card.html)
+ 6. [Grid](https://falconui.netlify.app/components/grid/grid.html) 
+ 7. [Image](https://falconui.netlify.app/components/responive-image/responsive-img.html)
+ 8. [Input](https://falconui.netlify.app/components/inputs/inputs.html)
+ 9. [List](https://falconui.netlify.app/components/lists/lists.html)
+ 10. [Modal](https://falconui.netlify.app/components/modal/modal.html)
+ 11. [Navbar](https://falconui.netlify.app/components/navbar/navbar.html)
+ 12. [Rating](https://falconui.netlify.app/components/ratings/ratings.html)
+ 13. [Slider](https://falconui.netlify.app/components/slider/slider.html)
+ 14. [Utilities](https://falconui.netlify.app/components/text-utilities/text-utilities.html)  
 
 ## Installation
 
