@@ -1,35 +1,41 @@
-.badge-container{
-    flex-wrap: wrap;
+.badge-container {
     margin-top: 2rem;
 }
-.badges{
-    padding:2rem;
-    font-size: 1.5rem;
+
+.badge {
+    padding: 0.5rem;
 }
-.primary-badge{
-    color:var(--white);
-    background-color: var(--primary); 
+
+.primary-badge {
+    color: var(--white);
+    background-color: var(--primary);
 }
-.secondary-badge{
+
+.secondary-badge {
     border: 3px solid var(--primary);
     color: var(--primary);
 }
-.primary-pill{
+
+.primary-pill {
     color: var(--white);
     background: var(--primary);
 }
-.secondary-pill{
+
+.secondary-pill {
     color: var(--primary);
     border: 3px solid var(--primary);
 }
-.badge-carbon{
-    margin-bottom: -250px;
+
+.badge-carbon {
+    /* margin-bottom: -250px; */
 }
+
 /* badge-on-icon style */
-.badge-on-icon{
+.badge-on-icon {
     margin: 3rem;
 }
-.notif-icon-badge{
+
+.notif-icon-badge {
     position: relative;
     height: 70px;
     width: 70px;
@@ -38,7 +44,8 @@
     outline: none;
     margin: 2rem;
 }
-.total-badge-notif{
+
+.total-badge-notif {
     position: absolute;
     top: -5px;
     right: 15px;
