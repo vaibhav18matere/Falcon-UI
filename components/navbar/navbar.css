@@ -118,3 +118,7 @@
   height: 25px;
 }
 }
+.fa:hover{
+  font-weight: bolder;
+  color: var(--card-border);
+}

@@ -19,7 +19,7 @@
     box-shadow: 0 0 3px 2px var(--light);
 }
 .navbar-container .navbar-heading{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .navbar-list{
     padding: 0;
@@ -78,6 +78,7 @@
 .btn-installation a{
     color:var(--white);
     text-decoration: none;
+    padding: 1.5rem;
 }
 .brand_name{
     flex-basis: 150px;

@@ -24,6 +24,6 @@
     background-color: var(--danger-bg);
 }
 .info-alert{
-    color: var(--info);
-    background-color: var(--info-bg);
+    color:var(--dark);
+    background-color: var(--info-light);
 }
