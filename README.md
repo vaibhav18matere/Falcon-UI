@@ -30,9 +30,8 @@ A lightweight, easy to use and fully customizable CSS component library
  9. [List](https://falconui.netlify.app/components/lists/lists.html)
  10. [Modal](https://falconui.netlify.app/components/modal/modal.html)
  11. [Navbar](https://falconui.netlify.app/components/navbar/navbar.html)
- 12. [Rating](https://falconui.netlify.app/components/ratings/ratings.html)
- 13. [Slider](https://falconui.netlify.app/components/slider/slider.html)
- 14. [Utilities](https://falconui.netlify.app/components/text-utilities/text-utilities.html)  
+ 12. [Slider](https://falconui.netlify.app/components/slider/slider.html)
+ 13. [Utilities](https://falconui.netlify.app/components/text-utilities/text-utilities.html)  
 
 ## Installation
 
